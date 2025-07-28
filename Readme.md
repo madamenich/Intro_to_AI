@@ -29,8 +29,8 @@ fine-tune-gpt-2/
 
 ### 1. Clone or Copy the Project
 ```bash
-git clone <your_repo_url> ai_qa_chatbot
-cd ai_qa_chatbot
+git clone <https://github.com/madamenich/Intro_to_AI.git> 
+cd Intro_to_AI
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
