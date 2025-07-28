@@ -1,0 +1,152 @@
+Question: What is Artificial Intelligence (AI)?
+Answer: AI is the simulation of human intelligence in machines that are programmed to think, learn, and make decisions.
+
+Question: What is Machine Learning (ML)?
+Answer: ML is a subset of AI focused on algorithms that learn patterns from data to make predictions or decisions without being explicitly programmed.
+
+Question: What is Deep Learning?
+Answer: Deep Learning is a subfield of ML that uses multi-layered neural networks to model complex patterns in large datasets.
+
+Question: What is a neural network?
+Answer: A neural network is a computational model inspired by the brain, composed of layers of interconnected nodes (neurons) that transform inputs to outputs.
+
+Question: What is supervised learning?
+Answer: Supervised learning trains models on labeled data where the correct output is known.
+
+Question: What is unsupervised learning?
+Answer: Unsupervised learning discovers patterns or structures in unlabeled data.
+
+Question: What is reinforcement learning?
+Answer: Reinforcement learning trains an agent to make decisions by rewarding desired behaviors and penalizing undesired ones.
+
+Question: What is overfitting?
+Answer: Overfitting happens when a model learns noise in the training data and performs poorly on unseen data.
+
+Question: What is underfitting?
+Answer: Underfitting happens when a model is too simple to capture the underlying structure of the data.
+
+Question: What is regularization?
+Answer: Regularization adds constraints or penalties to a model to reduce overfitting, such as L1 or L2 penalties.
+
+Question: What is cross-validation?
+Answer: Cross-validation partitions data into folds to better estimate model performance on unseen data.
+
+Question: What is the bias-variance tradeoff?
+Answer: It is the balance between a model’s ability to generalize (low variance) and its ability to fit the training data (low bias).
+
+Question: What is gradient descent?
+Answer: Gradient descent is an optimization algorithm that updates model parameters by moving in the direction of the negative gradient of the loss.
+
+Question: What is backpropagation?
+Answer: Backpropagation computes gradients of the loss with respect to weights in a neural network by applying the chain rule.
+
+Question: What is a loss function?
+Answer: A loss function measures how far the model’s predictions are from the target values; training minimizes this loss.
+
+Question: What is a learning rate?
+Answer: The learning rate controls the step size of parameter updates during optimization.
+
+Question: What is a transformer?
+Answer: A transformer is a neural network architecture using self-attention mechanisms to model relationships within sequences.
+
+Question: What is self-attention?
+Answer: Self-attention lets a model weigh the importance of different tokens in a sequence to each other.
+
+Question: What is BERT?
+Answer: BERT is a transformer-based encoder model trained with masked language modeling for understanding tasks.
+
+Question: What is GPT?
+Answer: GPT is a transformer-based decoder model trained with next-token prediction for text generation tasks.
+
+Question: What is tokenization?
+Answer: Tokenization splits text into smaller units (tokens) such as words or subwords for model processing.
+
+Question: What is few-shot learning?
+Answer: Few-shot learning enables a model to perform a new task from only a few examples.
+
+Question: What is zero-shot learning?
+Answer: Zero-shot learning enables a model to perform tasks it was never explicitly trained on, using generalization.
+
+Question: What is finetuning?
+Answer: Finetuning adapts a pretrained model to a specific dataset or task by continuing training.
+
+Question: What is pretraining?
+Answer: Pretraining is training a model on large, broad datasets to learn general representations before finetuning.
+
+Question: What is LoRA?
+Answer: LoRA is a parameter-efficient finetuning method that injects low-rank adapters into transformer layers.
+
+Question: What is RLHF?
+Answer: RLHF (Reinforcement Learning from Human Feedback) aligns models with human preferences using human-labeled rewards.
+
+Question: What is a vector database?
+Answer: A vector database stores and retrieves dense vector embeddings for similarity search.
+
+Question: What is RAG?
+Answer: Retrieval-Augmented Generation combines retrieval of external knowledge with generation to produce grounded answers.
+
+Question: What is perplexity?
+Answer: Perplexity measures how well a language model predicts a sample; lower perplexity indicates better performance.
+
+Question: What is BLEU score?
+Answer: BLEU evaluates machine translation quality by comparing n-grams to reference translations.
+
+Question: What is ROUGE?
+Answer: ROUGE evaluates text summarization by comparing overlaps with reference summaries.
+
+Question: What is cosine similarity?
+Answer: Cosine similarity measures the cosine of the angle between two vectors, indicating their similarity.
+
+Question: What is softmax?
+Answer: Softmax converts logits into a probability distribution that sums to 1.
+
+Question: What are activation functions?
+Answer: Activation functions introduce non-linearity into networks; examples include ReLU, sigmoid, and tanh.
+
+Question: What is batch normalization?
+Answer: Batch normalization normalizes layer inputs across a mini-batch to stabilize and speed up training.
+
+Question: What is layer normalization?
+Answer: Layer normalization normalizes across features for each sample and is common in transformers.
+
+Question: What is positional encoding?
+Answer: Positional encoding injects position information into transformers to model token order.
+
+Question: What are scaling laws?
+Answer: Scaling laws describe how model performance scales with data size, model size, and compute.
+
+Question: What is model quantization?
+Answer: Quantization reduces model precision (e.g., FP32→INT8) to lower memory and speed up inference.
+
+Question: What is pruning?
+Answer: Pruning removes less important weights or neurons to make models smaller and faster.
+
+Question: What is knowledge distillation?
+Answer: Distillation transfers knowledge from a large teacher model to a smaller student model.
+
+Question: What is greedy decoding?
+Answer: Greedy decoding picks the highest-probability token at each step without exploration.
+
+Question: What is beam search?
+Answer: Beam search keeps multiple best candidate sequences to improve generation quality.
+
+Question: What is top-k sampling?
+Answer: Top-k sampling restricts choices to the k most probable tokens to add diversity.
+
+Question: What is top-p (nucleus) sampling?
+Answer: Top-p sampling samples from the smallest token set whose cumulative probability exceeds p.
+
+Question: What is temperature in generation?
+Answer: Temperature scales logits to control randomness: higher temperature = more diversity.
+
+Question: What are hallucinations in LLMs?
+Answer: Hallucinations are confident but incorrect outputs produced by language models.
+
+Question: What is prompt engineering?
+Answer: Prompt engineering is crafting inputs to guide LLMs toward desired outputs.
+
+Question: What is prompt injection?
+Answer: Prompt injection is an adversarial technique to override or manipulate model instructions.
+
+Question: What is data leakage?
+Answer: Data leakage occurs when information from the test set inadvertently influences training, inflating performance.
