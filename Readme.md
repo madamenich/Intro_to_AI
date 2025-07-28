@@ -29,7 +29,7 @@ fine-tune-gpt-2/
 
 ### 1. Clone or Copy the Project
 ```bash
-git clone <https://github.com/madamenich/Intro_to_AI.git> 
+git clone https://github.com/madamenich/Intro_to_AI.git 
 cd Intro_to_AI
 ```
 
