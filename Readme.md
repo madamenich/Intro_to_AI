@@ -67,7 +67,7 @@ This will:
 
 ### 5. Launch the Chatbot App
 ```bash
-streamlit run ai_chatbot_app.py
+streamlit run app.py
 ```
 Open the link (e.g., `http://localhost:8501`) to start asking AI-related questions.
 
