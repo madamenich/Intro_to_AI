@@ -29,7 +29,7 @@ fine-tune-gpt-2/
 
 ### 1. Clone or Copy the Project
 ```bash
-git clone https://github.com/madamenich/Intro_to_AI.git 
+git clone [https://github.com/madamenich/Intro_to_AI.git] 
 cd Intro_to_AI
 ```
 
@@ -38,6 +38,12 @@ cd Intro_to_AI
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
+#### 2.1 conda environment
+```bash
+conda create -n testenv python=3.10
+
+conda activate testnv
 ```
 
 ### 3. Install Dependencies
