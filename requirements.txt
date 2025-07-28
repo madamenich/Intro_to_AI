@@ -1,0 +1,7 @@
+torch==2.2.2
+transformers==4.40.2
+datasets==2.18.0
+accelerate==0.29.3
+streamlit==1.33.0
+safetensors==0.4.5
+numpy<2
