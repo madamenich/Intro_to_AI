@@ -43,7 +43,7 @@ venv\Scripts\activate      # Windows
 ```bash
 conda create -n testenv python=3.10
 
-conda activate testnv
+conda activate testenv
 ```
 
 ### 3. Install Dependencies
